@@ -1,0 +1,98 @@
+@import url(./varibles.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;     
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#app {
+    font-family: var(--secondary-ff);
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(gray , rgb(80, 57, 44));
+    
+}
+
+.header , .cointainer , .footer, .title , .main__map-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    padding: var(--padding-xs);
+    background: var(--primary-bg);
+    flex-direction: row;
+}
+
+.img-wrapper {
+    display: flex;
+    width: 30%;
+}
+
+.img {
+    width: 8rem;
+    margin-left: var(--margin-m);
+}
+
+.nav {
+    display: flex;
+    width: 40%;
+    padding: var(--padding-m);
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about-ass_title-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-s);
+    margin-top: var(--margin-xs);
+    margin-right: var(--margin-xs);
+    width: 100%;
+}
+
+.title {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: var(--margin-xs);
+    font-family: var(--primary-ff);
+}   
+
+.about-ass_img-wrapper {
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+
+.about-ass__img {
+    width: 100%;
+    padding: .1rem;
+    margin-top: var(--margin-m);
+}
+
+.main__map-wrapper {
+    margin-top: var(--margin-s);
+    width: 100%;
+}
+
+.footer {
+    padding: var(--padding-m);
+    background: var(--primary-bg);
+}

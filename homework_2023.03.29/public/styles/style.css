@@ -1,0 +1,150 @@
+@import url(./varibles.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;     
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#app {
+    font-family: var(--primary-ff);
+}
+
+.header , .nav , .footer , .product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+}
+
+.header {
+    padding: var(--padding-xs);
+    background: var(--primary-bg);
+    flex-direction: row;
+}
+
+.img-wrapper {
+    display: flex;
+    width: 30%;
+}
+
+.img {
+    width: 8rem;
+    margin-left: var(--margin-m);
+}
+
+.nav {
+    width: 40%;
+    padding: 2rem;
+    text-transform: uppercase;
+}
+
+.main {
+    width: 100%;
+}
+
+.sidebar {
+    padding: var(--padding-s);
+    color: aliceblue;
+    width: 15%;
+    background: rgb(61, 40, 72);
+}
+
+.filter {
+    margin-top: var( --margin-xs);
+}
+
+.product {
+    width: 80%;
+    margin-top: var(--margin-m);
+    margin-left: var(--margin-xl);
+    padding: var(--padding-xs);
+
+}   
+
+.product__img-wrapper {
+    margin-top: var(--margin-l);
+    margin-left: var(--margin-xl);
+}
+
+.product__title {
+    display: flex;
+    justify-self: center;
+    width: 30rem;
+}
+
+.product__info {
+    margin-top: var(--margin-m);
+    width: 80%;
+    font-family: var(--secondary-ff);
+}
+
+.product__img {
+    width: 11rem;
+    margin: var(--margin-l);
+}
+
+.product__imgS {
+    width: 14rem;
+    margin: var(--margin-m);
+}
+
+.table {
+    display: flex;
+    margin-top: var(--margin-m);
+    flex-direction: column;
+    width: 100%;
+}
+
+.table__row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.table__col {
+    width: 100%;
+    border-bottom: 1px solid grey;
+    padding: var( --padding-xs);
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--margin-m);
+}
+
+.button {
+    cursor: pointer;
+    padding: 0.3rem 4rem;
+    border: none;
+    background: lightgray;
+    font-size: var(--fs-m);
+    border-radius: .2rem;
+    transition: ease 900ms;
+}
+
+.button:hover {
+    background: var(--secondary-bg);
+    color: var(--primary-color);
+    font-size: var(--fs-m);
+    border-radius: .2rem;
+    box-shadow: var(--box-shadow-s) rgb(20, 15, 1);
+}
+
+.footer {
+    padding: var(--padding-s);
+    background: var(--primary-bg);
+}
