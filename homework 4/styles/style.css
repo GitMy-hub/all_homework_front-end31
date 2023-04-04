@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* 1 rem = 16px */
+
+#app {
+    color: rgb(7, 7, 7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.header {
+    display: flex;
+    padding: 1rem;
+    background:rgb(184, 188, 191);
+    /* direction */
+    flex-direction: row;
+    /* y */
+    align-items: center;
+    /* x */
+    justify-content: space-between;
+}
+
+/* .header__logo-wrapper {
+    width: 20%;
+    text-align: center;
+    float: left;
+} */
+
+.header__logo {
+    width: 100px;
+}
+
+/* .header__input-wrapper {
+    float: left;
+} */
+
+.container {
+    display: flex;
+    
+}
+
+
+.header__input {
+    border: none;
+    border-bottom: 2px solid rgb(86, 71, 71);
+    background: inherit;
+    padding: .2rem;
+}
+
+.nav {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.product {
+    width: 40%;
+    margin-top: .4rem;
+}
+
+.sidebar {
+    width: 20%;
+    padding-right: 1rem;
+    padding: 1rem;
+    background: rgb(71, 113, 128);
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .4rem;
+}
+
+
+.product__title {
+    text-align: end;
+    text-transform: uppercase;
+}
+
+.discription__col {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-top: .3rem;
+    padding: .3rem 4rem;
+    border: none;
+    background: rgb(31, 38, 44);
+    color: rgb(229, 224, 233);
+    font-size: 1rem;
+    border-radius: .3rem .9rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background: rgb(102, 146, 179);
+}
