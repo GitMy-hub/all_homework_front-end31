@@ -29,19 +29,16 @@ li {
     border-radius: var(--primary-radius);
 }
 
-.img-wrapper {
-  width: 50%;
-}
 
 .img {
-    width: 40%;
+    width: 30%;
     border-radius: var(--primary-radius);
 }   
 
-.title__headrer {
+/* .title__headrer {
   width: 25%;
   color: white;
-}
+} */
 
 .container_header {
     display: flex;
