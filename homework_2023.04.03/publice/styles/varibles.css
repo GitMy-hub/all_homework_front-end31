@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "baskerville";
+    src: url("../fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf");
+}
+
+:root {
+
+    /* BG */
+    --primary-bg : rgb(187, 17, 17);
+    --third-bg : rgb(61, 40, 72);
+    --secondary-bg : #232323;
+    --bg-color-1 : #0097c2;
+    --bg-color-2 : #0097c2;
+    --bg-color-3 : #232323;
+    --bg-color-3 : #232323;
+    --bg-color-5 : #232323;
+    --bg-color-6 : #68abba;
+    --bg-color-7 : #8d8d8d;
+    --bg-app : #acd1d9;
+    
+    /* color */
+    --primary-color : azure;
+    --secondary-color : rgb(20, 15, 14);
+    --third-color : #232323;
+    --color-1 : #f7e069;
+    --color-2: rgb(20, 15, 14);
+    --color-6 : #f6de66;
+  
+
+    /* font-size */
+    --fs-xl: 4rem;
+    --fs-x: 3rem;
+    --fs-l: 2rem;
+    --fs-m: 1rem;
+    --fs-s: .8rem;
+    --fs-xs: .5rem;
+
+    /* padding */
+    --padding-xl: 5rem;
+    --padding-x: 4rem;
+    --padding-l: 3rem;
+    --padding-m: 2rem;
+    --padding-s: 1rem;
+    --padding-xs: .8rem;
+    
+
+    /* margin */
+    --margin-xl: 5rem;
+    --margin-x: 4rem;
+    --margin-l: 3rem;
+    --margin-m: 2rem;
+    --margin-s: 1rem;
+    --margin-xs: .8rem;
+
+    /* font-family */
+    --primary-ff : "baskerville";
+    --secondary-ff : "roboto";
+
+    /* box-shadow */
+    --box-shadow-x: 8px 11xp 8px;
+    --box-shadow-m: 6px 8xp 6px;
+    --box-shadow-s: 4px 6px 4px;
+
+    /* border-radius */
+    --primary-radius : .8rem;
+}
