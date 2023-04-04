@@ -29,10 +29,19 @@ li {
     border-radius: var(--primary-radius);
 }
 
+.img-wrapper {
+  width: 50%;
+}
+
 .img {
-    width: 25%;
+    width: 40%;
     border-radius: var(--primary-radius);
 }   
+
+.title__headrer {
+  width: 25%;
+  color: white;
+}
 
 .container_header {
     display: flex;
