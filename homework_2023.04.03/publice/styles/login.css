@@ -1,0 +1,73 @@
+@import url(./varibles.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: none;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    font-family: var(--primary-ff);
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#478d9c , #8d8d8d)
+}
+
+.form , .form__input-wrapper , .button-wrapper {
+    display: flex;
+}
+
+.form {
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+
+}
+
+.form__input-wrapper {
+    justify-content: space-between;
+    width: 50%;
+    margin-top: var(--margin-xs);
+}
+
+.form__input {
+    background: inherit;
+    border: none;
+    border-bottom: 2px solid rgb(15, 14, 14);
+    padding: .1rem .1rem;
+    color: var(--secondary-color);
+}
+
+.form__lebel {
+    text-transform: uppercase;
+    margin-top: var(--margin-xs);
+}
+
+.button-wrapper {
+    justify-content: center;
+    margin-top: var(--margin-m);
+}
+
+.button {
+    cursor: pointer;
+    padding: 0.3rem 4rem;
+    border: none;
+    background: lightgray;
+    font-size: var(--fs-m);
+    border-radius: .2rem;
+    transition: ease 900ms;
+}
+
+.button:hover {
+    background: var(--secondary-bg);
+    color: var(--primary-color);
+    font-size: var(--fs-m);
+    border-radius: .2rem;
+    box-shadow: var(--box-shadow-s) rgb(20, 15, 1);
+}
