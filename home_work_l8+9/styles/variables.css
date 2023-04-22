@@ -1,0 +1,79 @@
+/* 
+--primary-:;
+--secondary-:;
+--thrid-:;
+--fourth-:;
+--warning-:;
+--dangerous-:;
+--accept-:; 
+*/
+
+/* 
+--Y-xxxl: ;
+--Y-xxl: ;
+--Y-xl: ;
+--Y-l: ;
+--Y-m: ;
+--Y-s: ;
+--Y-xs: ;
+*/
+
+@font-face {
+    font-family: "primary";
+    src: url("../public/fonts/Inter/static/Inter-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "secondary";
+    src: url("../public/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "third";
+    src: url("../public/fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf");
+}
+
+:root {
+    /* BG */
+    --primary-bg : #F5F5F5;
+
+    /* COLOR */
+    --primary-color : rgb(46, 41, 39);
+    --secondary-color : rgb(119, 119, 119);
+    --third-color : rgba(119, 119, 119, 1);
+    --fourth-color : #F5F5F5;
+
+    /* BORDER-COLOR */
+    --primary-border: rgba(46, 41, 39, 1);
+
+    /* FONT-FAMILY */
+    --primary-font: "primary";
+    --secondary-font: "secondary";
+    --third-font: "third";
+
+    /* FONT-SIZE */
+    --fs-xl: 70px;
+    --fs-l: 42px;
+    --fs-m: 20px;
+    --fs-s: 18px;
+    --fs-xs: 16px;
+
+    /* MARGIN */
+    --margin-xxxl: 160px ;
+    --margin-xxl: 90px;
+    --margin-xl: 60px;
+    --margin-l: 55px;
+    --margin-m: 30px;
+    --margin-s: 20px;
+    --margin-xs: 10px;
+
+    /* PADDING */
+    --padding-xxxl: 160px ;
+    --padding-xxl: 90px;
+    --padding-xl: 60px;
+    --padding-l: 55px;
+    --padding-m: 30px;
+    --padding-s: 20px;
+    --padding-xs: 10px;
+}

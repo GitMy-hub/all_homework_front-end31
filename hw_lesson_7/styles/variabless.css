@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../publice/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+:root {
+
+    /* backgraund - Rectangle*/
+    --backgraund-primary : #984D38 -30.3%;
+    --backgraund-secondary : #181E41 58.12%;
+    --backgraund-button-active : 214.02deg , #B75CFF 6.04%, #671AE4 92.95%;
+    --backgraund-button : rgba(255, 255, 255, 0.1);
+    --backgraund-product-hover : rgba(255, 255, 255, 0.5);
+    --backgraund-product : rgba(255, 255, 255, 0.1);
+
+    /* font */
+    --primary-font : "Poppins";
+
+    /* color */
+    --primary-color : #FFFFFF;
+    --secondary-color : rgba(255, 255, 255, 0.5);
+
+    /* box-shadow */
+    --box-shadow-product : 0px 5px 4px rgba(0, 0, 0, 0.25);
+
+    /* border-radius */
+    --border-radius-prodect : 10px;
+
+    /* font-size */
+    --font-size-A : 50px;
+    --font-size-B : 20px;
+}
