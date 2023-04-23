@@ -1,0 +1,32 @@
+.upper {
+    text-transform: uppercase;
+}
+
+.title {
+    margin-top: var(--margin-xxl);
+   font-size: var(--fs-m); 
+   font-family: var(--ff-kaisei);
+}
+
+.paragraph {
+    font-family: var(--ff-assistant);
+    font-size: calc(var(--fs-xs) - 2px);
+    margin-top: var(--margin-s);
+    color: var(--secondary-text-color);
+}
+
+.sub-title {
+    font-size:var(--fs-xs);
+    color: var(--primary-text-color);
+    font-family: var(--ff-assistant);
+    margin-top: var(--margin-s);
+}
+
+.special-word {
+    color: var(--thrid-bg);
+}
+
+.direction__image {
+    width: 296px ;
+    margin-top: var(--margin-s);
+}
